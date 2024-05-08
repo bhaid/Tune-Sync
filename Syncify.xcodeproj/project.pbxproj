@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A206E0302BBDB44C0018FC60 /* SpotifyiOS.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A206E02F2BBDB44C0018FC60 /* SpotifyiOS.xcframework */; };
+		A206E0312BBDB44C0018FC60 /* SpotifyiOS.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A206E02F2BBDB44C0018FC60 /* SpotifyiOS.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A24B26482BC0950F00B68DB0 /* RecentParties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24B26472BC0950F00B68DB0 /* RecentParties.swift */; };
+		A286CE952A55CDF500580F6C /* CreateParty.swift in Sources */ = {isa = PBXBuildFile; fileRef = A286CE942A55CDF500580F6C /* CreateParty.swift */; };
+		A286CE972A55DB4F00580F6C /* SpotifyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A286CE962A55DB4F00580F6C /* SpotifyService.swift */; };
+		A2A8849E2A808F4A00893976 /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A8849D2A808F4A00893976 /* QRCode.swift */; };
 		A2F5A6322A4356F70002CD97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F5A6312A4356F70002CD97 /* AppDelegate.swift */; };
 		A2F5A6342A4356F70002CD97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F5A6332A4356F70002CD97 /* SceneDelegate.swift */; };
 		A2F5A6362A4356F70002CD97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F5A6352A4356F70002CD97 /* ViewController.swift */; };
@@ -16,6 +22,8 @@
 		A2F5A6492A4356FB0002CD97 /* SyncifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F5A6482A4356FB0002CD97 /* SyncifyTests.swift */; };
 		A2F5A6532A4356FB0002CD97 /* SyncifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F5A6522A4356FB0002CD97 /* SyncifyUITests.swift */; };
 		A2F5A6552A4356FB0002CD97 /* SyncifyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F5A6542A4356FB0002CD97 /* SyncifyUITestsLaunchTests.swift */; };
+		A2FC5F252A571F5100BD3953 /* Party.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FC5F242A571F5100BD3953 /* Party.swift */; };
+		A2FC5F882A64737900BD3953 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FC5F872A64737900BD3953 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +43,27 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A2FC5F302A61B31000BD3953 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A206E0312BBDB44C0018FC60 /* SpotifyiOS.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		A206E02F2BBDB44C0018FC60 /* SpotifyiOS.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SpotifyiOS.xcframework; path = "../../../Downloads/ios-sdk-1.2.4/SpotifyiOS.xcframework"; sourceTree = "<group>"; };
+		A24B26472BC0950F00B68DB0 /* RecentParties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentParties.swift; sourceTree = "<group>"; };
+		A286CE942A55CDF500580F6C /* CreateParty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateParty.swift; sourceTree = "<group>"; };
+		A286CE962A55DB4F00580F6C /* SpotifyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyService.swift; sourceTree = "<group>"; };
+		A286CE992A55EFBD00580F6C /* Headers */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Headers; path = "../../Downloads/ios-sdk-1.2.4/SpotifyiOS.framework/Versions/A/Headers"; sourceTree = "<group>"; };
+		A2A8849D2A808F4A00893976 /* QRCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCode.swift; sourceTree = "<group>"; };
 		A2F5A62E2A4356F70002CD97 /* Syncify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Syncify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2F5A6312A4356F70002CD97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2F5A6332A4356F70002CD97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +77,8 @@
 		A2F5A64E2A4356FB0002CD97 /* SyncifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SyncifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2F5A6522A4356FB0002CD97 /* SyncifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncifyUITests.swift; sourceTree = "<group>"; };
 		A2F5A6542A4356FB0002CD97 /* SyncifyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncifyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A2FC5F242A571F5100BD3953 /* Party.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Party.swift; sourceTree = "<group>"; };
+		A2FC5F872A64737900BD3953 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A206E0302BBDB44C0018FC60 /* SpotifyiOS.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +107,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A286CE982A55EFBC00580F6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A206E02F2BBDB44C0018FC60 /* SpotifyiOS.xcframework */,
+				A286CE992A55EFBD00580F6C /* Headers */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A2F5A6252A4356F70002CD97 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +123,7 @@
 				A2F5A6472A4356FB0002CD97 /* SyncifyTests */,
 				A2F5A6512A4356FB0002CD97 /* SyncifyUITests */,
 				A2F5A62F2A4356F70002CD97 /* Products */,
+				A286CE982A55EFBC00580F6C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +147,12 @@
 				A2F5A63A2A4356FA0002CD97 /* Assets.xcassets */,
 				A2F5A63C2A4356FA0002CD97 /* LaunchScreen.storyboard */,
 				A2F5A63F2A4356FA0002CD97 /* Info.plist */,
+				A286CE942A55CDF500580F6C /* CreateParty.swift */,
+				A286CE962A55DB4F00580F6C /* SpotifyService.swift */,
+				A2FC5F242A571F5100BD3953 /* Party.swift */,
+				A2FC5F872A64737900BD3953 /* Constants.swift */,
+				A2A8849D2A808F4A00893976 /* QRCode.swift */,
+				A24B26472BC0950F00B68DB0 /* RecentParties.swift */,
 			);
 			path = Syncify;
 			sourceTree = "<group>";
@@ -137,12 +184,15 @@
 				A2F5A62A2A4356F70002CD97 /* Sources */,
 				A2F5A62B2A4356F70002CD97 /* Frameworks */,
 				A2F5A62C2A4356F70002CD97 /* Resources */,
+				A2FC5F302A61B31000BD3953 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Syncify;
+			packageProductDependencies = (
+			);
 			productName = Syncify;
 			productReference = A2F5A62E2A4356F70002CD97 /* Syncify.app */;
 			productType = "com.apple.product-type.application";
@@ -258,7 +308,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A286CE972A55DB4F00580F6C /* SpotifyService.swift in Sources */,
+				A286CE952A55CDF500580F6C /* CreateParty.swift in Sources */,
+				A2FC5F252A571F5100BD3953 /* Party.swift in Sources */,
 				A2F5A6362A4356F70002CD97 /* ViewController.swift in Sources */,
+				A2FC5F882A64737900BD3953 /* Constants.swift in Sources */,
+				A2A8849E2A808F4A00893976 /* QRCode.swift in Sources */,
+				A24B26482BC0950F00B68DB0 /* RecentParties.swift in Sources */,
 				A2F5A6322A4356F70002CD97 /* AppDelegate.swift in Sources */,
 				A2F5A6342A4356F70002CD97 /* SceneDelegate.swift in Sources */,
 			);
@@ -435,15 +491,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 944F77SRX4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Syncify/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TuneSync;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to scan QR codes.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,9 +511,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = HaidingerB.Syncify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -462,15 +523,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 944F77SRX4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Syncify/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TuneSync;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to scan QR codes.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -478,9 +543,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = HaidingerB.Syncify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
