@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A206E0302BBDB44C0018FC60 /* SpotifyiOS.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A206E02F2BBDB44C0018FC60 /* SpotifyiOS.xcframework */; };
+		A206E0312BBDB44C0018FC60 /* SpotifyiOS.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A206E02F2BBDB44C0018FC60 /* SpotifyiOS.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A24B26482BC0950F00B68DB0 /* RecentParties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24B26472BC0950F00B68DB0 /* RecentParties.swift */; };
 		A286CE952A55CDF500580F6C /* CreateParty.swift in Sources */ = {isa = PBXBuildFile; fileRef = A286CE942A55CDF500580F6C /* CreateParty.swift */; };
 		A286CE972A55DB4F00580F6C /* SpotifyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A286CE962A55DB4F00580F6C /* SpotifyService.swift */; };
